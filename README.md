@@ -60,7 +60,7 @@ Create a `.env` file in the root directory of your project and add the following
 ```plaintext
 SPOTIPY_CLIENT_ID=your_client_id_here
 SPOTIPY_CLIENT_SECRET=your_client_secret_here
-SPOTIPY_REDIRECT_URI=http://localhost:8888/callback
+SPOTIPY_REDIRECT_URI=your_redirect_uri
 ```
 
 ## Running the Project
