@@ -18,7 +18,7 @@ sp = spotipy.Spotify(auth_manager=SpotifyOAuth(
     requests_timeout=300
 )
 
-# Function to get Spotify device (need to have Spotify Premium open on your mac for this to work)
+# Function to get the active Spotify device
 def get_active_device():
     devices = sp.devices()
     if not devices['devices']:
@@ -45,8 +45,6 @@ def control_spotify(command):
             sp.start_playback(device_id=device_id)
         elif command == 'pause':
             sp.pause_playback(device_id=device_id)
-        elif command == 'resume':
-            sp.start_playback(device_id=device_id)
         elif command == 'back':
             sp.previous_track(device_id=device_id)
         elif command == 'skip':
