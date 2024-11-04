@@ -1,23 +1,50 @@
 # Silent-Speech
-repo for jaw sensor analysis. Turns jaw motion signal into speech.
+Repository for jaw sensor analysis, transforming jaw motion signals into speech.
 
+## Setup
+1. Create a new folder for the project:
+   ```bash
+   mkdir Silent-Speech
+   cd Silent-Speech
+   ```
+2. Initialize a new Git repository:
+   ```bash
+   git init
+   ```
+3. Pull the repository from GitHub:
+   ```bash
+   git pull https://github.com/Gyrozaid/Silent-Speech
+   ```
+4. Set the remote origin:
+   ```bash
+   git remote add origin https://github.com/Gyrozaid/Silent-Speech
+   ```
 
+## Pull Requests
+1. Create a new branch:
+   ```bash
+   git checkout -b new_branch_name
+   ```
+2. Stage all changes:
+   ```bash
+   git add .
+   ```
+3. Commit changes:
+   ```bash
+   git commit -m "new commit message"
+   ```
+4. Push changes (for the first push to the new branch):
+   ```bash
+   git push --set-upstream origin new_branch_name
+   ```
+   - If the upstream is already set, use:
+     ```bash
+     git push
+     ```
 
-- Setup: 
-    - create new folder for project
-    - git init
-    - git pull https://github.com/Gyrozaid/Silent-Speech
-    - git remote add origin https://github.com/Gyrozaid/Silent-Speech
-
-- Pull Requests:
-    - create a new branch: git checkout -b new_branch_name
-    - add all changes: git add .
-    - commit changes: git commit -m "new commit message"
-    - push changes: git push --set-upstream origin new_branch_name
-        - git push if upstream already set
-
-    - go to github and open the pull request
-        - text when done so someone else can review and approve the merge into main
+5. Open a pull request on GitHub:
+   - Go to the repository on GitHub and create a new pull request.
+   - Notify the team when the pull request is ready for review and approval before merging into `main`.
 
 # Spotify Setup
 
@@ -63,15 +90,6 @@ SPOTIPY_CLIENT_SECRET=your_client_secret_here
 SPOTIPY_REDIRECT_URI=your_redirect_uri
 ```
 
-## Running the Project
-To run the project and start controlling Spotify, use the following command:
-
-```bash
-python main.py
-```
-
-You will be prompted to enter commands such as **play**, **pause**, **resume**, **back**, and **skip**.
-
 # Spotify  
 ## Python Environment Setup
 
@@ -101,3 +119,6 @@ pip install spotipy
 ```
 python Silent-Speech/Spotify/main.py
 ```
+
+You will be prompted to enter commands such as **play**, **pause**, **resume**, **back**, and **skip**.
+
