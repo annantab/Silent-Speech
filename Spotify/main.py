@@ -45,8 +45,6 @@ def control_spotify(command):
             sp.start_playback(device_id=device_id)
         elif command == 'pause':
             sp.pause_playback(device_id=device_id)
-        elif command == 'resume':
-            sp.start_playback(device_id=device_id)
         elif command == 'back':
             sp.previous_track(device_id=device_id)
         elif command == 'skip':
