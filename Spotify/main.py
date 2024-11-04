@@ -56,5 +56,5 @@ def control_spotify(command):
 
 # Infinite loop to collect commands from the user
 while True:
-    command = input("Enter Spotify command (play, pause, resume, back, skip): ").strip().lower()
+    command = input("Enter Spotify command (play, pause, back, skip): ").strip().lower()
     control_spotify(command)
