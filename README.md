@@ -19,25 +19,21 @@ repo for jaw sensor analysis. Turns jaw motion signal into speech.
     - go to github and open the pull request
         - text when done so someone else can review and approve the merge into main
 
-
-# Project Setup
-
-## Creating a Virtual Environment
-Create a virtual environment to manage the dependencies for this project.
+# Spotify Setup
 
 ### Step 1: Create a Virtual Environment
 ```bash
-python3 -m venv 528_project
+python3 -m venv 528_project_venv
 ```
 
 ### Step 2: Activate the Virtual Environment
 - **On macOS/Linux:**
   ```bash
-  source 528_project/bin/activate
+  source 528_project_venv/bin/activate
   ```
 - **On Windows:**
   ```bash
-  528_project\Scripts\activate
+  528_project_venv\Scripts\activate
   ```
 
 ## Installing Dependencies
@@ -75,4 +71,33 @@ python main.py
 ```
 
 You will be prompted to enter commands such as **play**, **pause**, **resume**, **back**, and **skip**.
+
+# Spotify  
+## Python Environment Setup
+
+### Creating an environment with venv
+```
+python3 -m venv 528_project
+```
+
+# Activate the virtual environment
+# On Windows
+```
+528_project\Scripts\activate
+```
+# On macOS/Linux
+```
+source 528_project/bin/activate
+```
+
+# Install required packages
+```
+pip install python-dotenv
+pip install spotipy
+```
+
+# Running the Project
+
+```
+python Silent-Speech/Spotify/main.py
 ```

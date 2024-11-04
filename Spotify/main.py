@@ -18,7 +18,7 @@ sp = spotipy.Spotify(auth_manager=SpotifyOAuth(
     requests_timeout=300
 )
 
-# Function to get Spotify device (need to have Spotify Premium open on your mac for this to work)
+# Function to get the active Spotify device
 def get_active_device():
     devices = sp.devices()
     if not devices['devices']:
