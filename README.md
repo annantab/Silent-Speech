@@ -18,3 +18,32 @@ repo for jaw sensor analysis. Turns jaw motion signal into speech.
 
     - go to github and open the pull request
         - text when done so someone else can review and approve the merge into main
+
+# Spotify  
+## Python Environment Setup
+
+### Creating an environment with venv
+```
+python3 -m venv 528_project
+```
+
+# Activate the virtual environment
+# On Windows
+```
+528_project\Scripts\activate
+```
+# On macOS/Linux
+```
+source 528_project/bin/activate
+```
+
+# Install required packages
+```
+pip install python-dotenv
+pip install spotipy
+```
+
+# Run the project
+```
+python Silent-Speech/Spotify/main.py
+```
