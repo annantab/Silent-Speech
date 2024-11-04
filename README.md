@@ -97,7 +97,8 @@ pip install python-dotenv
 pip install spotipy
 ```
 
-# Run the project
+# Running the Project
+
 ```
 python Silent-Speech/Spotify/main.py
 ```
