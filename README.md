@@ -24,17 +24,17 @@ repo for jaw sensor analysis. Turns jaw motion signal into speech.
 
 ### Step 1: Create a Virtual Environment
 ```bash
-python3 -m venv 528_project
+python3 -m venv 528_project_venv
 ```
 
 ### Step 2: Activate the Virtual Environment
 - **On macOS/Linux:**
   ```bash
-  source 528_project/bin/activate
+  source 528_project_venv/bin/activate
   ```
 - **On Windows:**
   ```bash
-  528_project\Scripts\activate
+  528_project_venv\Scripts\activate
   ```
 
 ## Installing Dependencies
