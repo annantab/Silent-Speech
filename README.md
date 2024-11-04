@@ -22,9 +22,6 @@ repo for jaw sensor analysis. Turns jaw motion signal into speech.
 
 # Project Setup
 
-## Creating a Virtual Environment
-Create a virtual environment to manage the dependencies for this project.
-
 ### Step 1: Create a Virtual Environment
 ```bash
 python3 -m venv 528_project
