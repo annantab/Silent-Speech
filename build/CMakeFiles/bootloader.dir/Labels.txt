@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+/Users/annantabudhathoki/Documents/ESP/Silent-Speech/build/CMakeFiles/bootloader
+/Users/annantabudhathoki/Documents/ESP/Silent-Speech/build/CMakeFiles/bootloader.rule
+/Users/annantabudhathoki/Documents/ESP/Silent-Speech/build/CMakeFiles/bootloader-complete.rule
+/Users/annantabudhathoki/Documents/ESP/Silent-Speech/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
+/Users/annantabudhathoki/Documents/ESP/Silent-Speech/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+/Users/annantabudhathoki/Documents/ESP/Silent-Speech/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+/Users/annantabudhathoki/Documents/ESP/Silent-Speech/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+/Users/annantabudhathoki/Documents/ESP/Silent-Speech/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+/Users/annantabudhathoki/Documents/ESP/Silent-Speech/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+/Users/annantabudhathoki/Documents/ESP/Silent-Speech/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule
